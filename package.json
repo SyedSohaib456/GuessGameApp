@@ -6,7 +6,9 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "prepare": "husky",
+    "lint": "eslint ."
   },
   "dependencies": {
     "expo": "~51.0.28",
@@ -19,7 +21,12 @@
     "react-native": "0.74.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1",
+    "eslint": "^9.9.1",
+    "husky": "^9.1.5",
+    "prettier": "3.3.3"
   },
   "private": true
 }
