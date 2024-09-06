@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "GuessGame",
+    "slug": "GuessGame",
+    "version": "1.0.0",
+    "orientation": "defualt",
+    "userInterfaceStyle": "light"
+    
+  }
+}
