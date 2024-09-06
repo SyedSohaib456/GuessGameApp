@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
   },
   listCtn: {
     flex: 1,
-    padding: 16,
+    padding: 15,
     width: "100%",
   },
   cardContainer: {
